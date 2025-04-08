@@ -127,6 +127,62 @@
             margin-bottom: 10px;
             line-height: 1.5;
         }
+        .linkedin-post {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .post-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .post-author {
+        font-size: 14px;
+    }
+
+    .post-author strong {
+        font-size: 16px;
+    }
+
+    .post-time {
+        color: gray;
+    }
+
+    .post-content p {
+        font-size: 16px;
+        color: #333;
+    }
+
+    .post-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .post-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .post-footer button {
+        background: transparent;
+        border: none;
+        color: #0073b1;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .like-button:hover,
+    .comment-button:hover,
+    .share-button:hover {
+        color: #005b8c;
+    }
     </style>
 </head>
 
@@ -223,6 +279,58 @@
                 <li>Ensured secure handling of sensitive information with encryption and access control mechanisms.</li>
             </ul>
         </div>
+        <div class="section">
+            <h3>Posts</h3>
+            
+            <!-- LinkedIn-style Post -->
+            <div class="linkedin-post">
+                <div class="post-header">
+                    <div class="post-author">
+                        <strong>Aviya Yosef</strong>
+                        <span class="post-time">Posted 1 hour ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p><strong>Image Rendering Project | Java</strong></p>
+                    <p>I'm so excited to have successfully completed this challenging image rendering project! I developed a system that processes and renders 3D scenes with advanced techniques like anti-aliasing and multi-threading. It was an incredible learning experience!</p>
+                </div>
+                <div class="post-image">
+                    <!-- Image from the project -->
+                    <img src="rendered_image.jpg" alt="Rendered Image" class="project-image">
+                </div>
+                <div class="post-footer">
+                    <button class="like-button"><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button class="comment-button"><i class="fas fa-comment"></i> Comment</button>
+                    <button class="share-button"><i class="fas fa-share"></i> Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            
+            <!-- LinkedIn-style Post -->
+            <div class="linkedin-post">
+                <div class="post-header">
+                    <div class="post-author">
+                        <strong>Aviya Yosef</strong>
+                        <span class="post-time">Posted 2 hours ago</span>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p><strong>Project Management System | C# .NET Core</strong></p>
+                    <p>I'm proud to have contributed to a project management system that simplifies task tracking and project monitoring. I worked with a partner to develop an intuitive UI and integrate XML-based data storage. It was great to apply my knowledge of C# and Git!</p>
+                </div>
+                <div class="post-image">
+                    <!-- Image from the project -->
+                    <img src="dotNet.jpg" alt="Project Management System Screenshot" class="project-image">
+                </div>
+                <div class="post-footer">
+                    <button class="like-button"><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button class="comment-button"><i class="fas fa-comment"></i> Comment</button>
+                    <button class="share-button"><i class="fas fa-share"></i> Share</button>
+                </div>
+            </div>
+        </div>
+        
 
 
         <!-- סקשן של המלצות -->
